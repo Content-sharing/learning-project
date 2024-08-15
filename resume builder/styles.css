@@ -1,0 +1,380 @@
+/* Add your styles here */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resume-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container2 {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 30%;
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.skills, .languages {
+    margin-top: 20px;
+}
+
+.skills h3, .languages h3 {
+    margin-bottom: 10px;
+    color: #009688;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #009688;
+}
+
+.languages p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Main content styling */
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.work-experience, .education {
+    margin-bottom: 20px;
+}
+
+.work-experience h2, .education h2 {
+    font-size: 1.8em;
+    color: #009688;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.work-experience h2 i, .education h2 i {
+    margin-right: 10px;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.job p, .education-item p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+/* Basic reset and global styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-right: 40%;
+}
+
+.navbar .nav-links {
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #0056b3;
+}
+
+/* Intro section styling */
+.intro {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.intro a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+/* About page*/
+
+/* Basic reset and global styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.navbar .nav-links {
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #0056b3;
+}
+
+/* About section styling */
+.about {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 800px;
+}
+
+.about ul li {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
